@@ -10,7 +10,6 @@ const StyledButton = styled.button<BaseTypes>`
   line-height: ${lineHeights.normal};
   background-color: ${color.accent};
   color: ${color.primaryColor};
-  border: 2px solid ${color.secondaryColor};
   ${(props) => props.style}; 
 `;
 
